@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 
 import Error from "../pages/error";
+import Movie from '../pages/movie';
+import Search from '../pages/search';
 import Main from '../pages/main';
 
 
