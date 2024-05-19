@@ -11,6 +11,8 @@ import Main from '../pages/main';
           <Route path="*" element={<Navigate to="/404" replace/>}/>
           <Route path="/404" element={<Error />}/>
           <Route path="/" element={<Main />}/>
+          <Route path="movie/:id" element={<Movie />}/>
+          <Route path="search" element={<Search />}/>
         </Routes>
       </BrowserRouter>
     )
